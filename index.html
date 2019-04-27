@@ -3,21 +3,82 @@
 <head>
   <title>contact</title>
   <style type="text/css">
-    *{box-sizing: border-box; }
+    *{box-sizing: border-box; font-family: 'Roboto',sans-serif; margin: 0px;}
+/* header */
+.header {
+    background-image: url(images/images.jpg);
+    width: 100%;
+    height:350px;
+    color: white;
+    background-position: 50%;
+    background-size: cover;
+    opacity: 0.8;
+    padding: 0px;
+    margin: 0px;
+}
+.header h1 {float: left; padding-top: 28px;}
+.header h1 a:hover{color:#EA531C;}
+.header h1 a {color:white;}
+.header ul {
+  overflow: hidden;  
+    list-style: none;
+    float: right;
+    padding-top: 28px;
+    
+}
+.header ul li {
+    float: left;
+    padding: 10px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform:uppercase;
+}
+.header ul li a:hover{ color:#EA531C;}
+.header h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+    padding-top: 28px;
+    
+}
+.header p {
+    text-align: center;
+}
+.header span:hover {
+    color:#EA531C;
+}
+/*end header*/
+
+
+
+
     .cont{width: 85%; margin: auto;}
 div {display: block;}
-h2{ text-transform: capitalize; }
+h3{ text-transform: capitalize;
+font-size: 30px;
+margin: 10px; }
 
-.form{width: 60%;}
+
+ p {display: inline-block;
+  color: #7c7c7c;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 500;}
+
+.form{width: 70%; float: left;}
 .row{width:100%;
 }
+.clear{clear: both;}
 .select{margin-bottom: 15px;
     padding-right: 15px;
     display: inline-block;
     float: left;
     padding-left: 15px; 
     width: 33.33%;}
-    label {
+    label {color: #7c7c7c;
     display: block;
     max-width: 100%;
     margin-bottom: 5px;}
@@ -36,7 +97,6 @@ h2{ text-transform: capitalize; }
 textarea{
     box-shadow: none;
     border: 1px solid #dadada;
-    
     width: 98%;
     padding-right: 15px;
     background: none;
@@ -57,17 +117,109 @@ a.button{    border: 2px solid transparent;
     text-decoration: none;
     margin-top: 15px;
     } .button:hover{background-color: #7c7c7c;}
+ h4{    font-size: 20px;
+    line-height: normal;
+    margin:10px 0px;
+    font-weight: 700;}
+.left{float: left; padding: 0px 15px; width: 30%;}
+
+
+
+
+/*footer Style */
+footer  {
+    height: 750px;
+    background:#141414;
+    color: white;
+ width: 100%;
+    
+}
+.f1 {
+    background-color: #1B1B1B;
+    height: 520px;
+}
+.email-cont {
+    width: 90%;
+   
+    margin: 50px auto auto auto;
+}
+.emails {
+    float: left;
+    width: 33.33%;
+    margin:100px auto 70px;
+}
+.emails h3 {
+  color:#EA531C;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.emails p {text-align: center; font-weight: 15px;}
+#foot{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.d_email{
+    width:65%;
+margin:auto;
+}
+input[id="email"]{
+    width:100%;
+    height: 50px;
+}
+/* copyright h4 */
+#cop{ 
+    text-align: center;
+    margin-top: 50px;}
+    /*footer list */
+.f_list { 
+    list-style-type: none;
+    width: 50%;
+    margin:auto 20% auto auto;
+    padding: 10px;
+    color: gray;
+}
+.f_list li {
+    float: left;
+    padding: 15px;
+    font-size:15px;
+}
+.f_list li a:hover{
+    color:#EA531C;
+}
+
 
   </style>
-
-
-
 </head>
 <body>
+  <header>
+    <div class="header">
+        <div class="container">
+            <h1><a href="#home.html">EvenTime</a> </h1>
+            <ul>
+<li><a href="">home</a></li>
+                <li><a href="">Speakers</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">tickets</a></li>
+                <li><a href="">venu</a></li>
+                <li><a href=""> About</a></li>
+
+            </ul>
+            <div class="clear"></div>
+            <div class="md">
+                <h2>contact</h2>
+                <p>Home/contact</p>
+            </div>
+        </div>
+    </div>
+    </header>
+
 <div class="cont">
   
     <div class="form">
-    <h2> send message </h2>
+    <h3> send message </h3>
     <div class="row">
     <div class="select">
       <label >Name</label>
@@ -96,9 +248,76 @@ a.button{    border: 2px solid transparent;
 <a href="#" class="button">Send Message</a>
     </div>
     
-    
+
+<div class="left">
+     <ul>
+        <li><div class="contact">
+      <h4>Office</h4>
+      <p>Eventime HQ, 1638 North Street Charlottesville, NY 22903</p> 
+
+
+      </div> </li>
+      <li><div class="contact">
+      <h4>Email</h4>
+      <p>Eventime HQ, 1638 North Street Charlottesville, NY 22903</p> 
+
+
+      </div> </li>
+      <li><div class="contact">
+      <h4>Office</h4>
+      <p>Eventime HQ, 1638 North Street Charlottesville, NY 22903</p> 
+
+
+      </div> </li>
+
+
+     </ul>
     </div>
-  </div>
+
+    <div class="clear"></div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="f1">
+            <div class="container-2">
+                <div class="email-cont">
+                    <div class="emails">
+                        <h3>General Queries</h3> <br>
+                        <p>contact@eventtime.eg</p>
+                    </div>
+                    <div class="emails"> 
+                        <h3>Ticket Queries</h3> <br>
+                        <p>contact@eventtime.eg</p>
+                    </div>
+                    <div class="emails">
+                        <h3>Events Queries</h3> <br>
+                        <p>contact@eventtime.eg</p>
+
+                    </div>
+                   <h3 id="foot">Stay updated and join our newsletter</h3>
+                    <div class="d_email"> <input type="email" name="email" id="email"></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="f2">
+            <div class="container-2">
+<h4 id="cop">copyright &COPY; 2019 team ALL rights reserved</h4>
+                <ul class="f_list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Speakers</a></li>
+                    <li><a href="#">Become a sponser</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Videos</a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </footer>
+<!--end footer-->
+  
 
 </body>
 </html>
